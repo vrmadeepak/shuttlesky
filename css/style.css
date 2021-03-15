@@ -3436,3 +3436,8 @@ html[dir=rtl] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current{transform:transl
 .color-green {
     color: lightgreen;
 }
+
+span.block-vacancy {
+    transition: box-shadow .3s;
+}
+span.block-vacancy:hover{box-shadow:-3px 5px 12px 0 rgba(42,42,42,.16); cursor: pointer;}
