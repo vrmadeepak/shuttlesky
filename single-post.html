@@ -40,7 +40,7 @@
         <div class="rd-navbar-wrap">
           <nav class="rd-navbar rd-navbar-creative" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-device-layout="rd-navbar-fullwidth" data-xxl-device-layout="rd-navbar-fullwidth" data-lg-layout="rd-navbar-fullwidth" data-xl-layout="rd-navbar-fullwidth" data-xxl-layout="rd-navbar-fullwidth" data-stick-up-clone="false" data-md-stick-up-offset="150px" data-lg-stick-up-offset="60px" data-md-stick-up="true" data-lg-stick-up="true">
             <div class="rd-navbar-aside-outer rd-navbar-content-outer">
-              <div class="rd-navbar-content__toggle rd-navbar-fullwidth--hidden" data-rd-navbar-toggle=".rd-navbar-content"><span></span></div>
+              <!-- <div class="rd-navbar-content__toggle rd-navbar-fullwidth--hidden" data-rd-navbar-toggle=".rd-navbar-content"><span></span></div> -->
               <div class="rd-navbar-aside rd-navbar-content">
                 <div class="rd-navbar-aside__item">
                 </div>
@@ -48,8 +48,7 @@
                   <ul class="rd-navbar-items-list">
                     <li>
                       <div class="unit unit-spacing-xxs flex-row">
-                        <div class="unit__left"><span class="text-primary">Phone:</span></div>
-                        <div class="unit__body"><a href="tel:+919090900215">+91-9090900215</a></div>
+                        <div class="unit__body"><a class="button button-secondary" href="tel:+919090900215">+91-9090900215</a></div>
                       </div>
                     </li>
                   </ul>
@@ -59,18 +58,22 @@
             <div class="rd-navbar-main-outer">
               <div class="rd-navbar-main">
                 <!-- RD Navbar Panel -->
-                <div class="rd-navbar-panel">
+                <div class="rd-navbar-panel d-flex align-items-center justify-content-between">
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand"><a class="brand" href="index.html">
+                  <div class="rd-navbar-brand">
+                    <a class="brand" href="index.html">
                       <div class="brand__name"><img src="images/logo-141x65.png" alt="" width="141" height="65"/>
-                      </div></a></div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="rd-navbar-fullwidth--hidden ml-5"><a class="button button-secondary" href="tel:+919090900215">Call</a></div>
                 </div>
                 <!-- RD Navbar Nav -->
                 <div class="rd-navbar-nav-wrap">
                   <div class="rd-navbar-main-item"><a class="button button-xs button-lighter" href="contact-us.html">Get a quote</a></div>
                   <ul class="rd-navbar-nav">
-                    <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">Home</a>
                     </li>
                     <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.html">About Us</a>
                     </li>
@@ -84,7 +87,7 @@
                         <li><a href="single-product.html">Commercial & Goods Elevators</a></li>
                       </ul>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="blogs/blog.html">Blog</a>
+                    <li class="rd-nav-item active"><a class="rd-nav-link" href="blogs/blog.html">Blog</a>
                     </li>
 <li class="rd-nav-item"><a class="rd-nav-link" href="careers.html">Careers</a>
                     </li>
@@ -98,7 +101,7 @@
         </div>
       </header>
       <!-- Breadcrumbs-->
-      <section class="breadcrumbs-custom bg-image" style="background-image: url(images/bg-image-9.jpg);">
+      <section class="breadcrumbs-custom bg-image" style="background-image: url(images/bg-image-about.jpg);">
         <div class="container">
           <h2 class="breadcrumbs-custom__title">Single post</h2>
           <ul class="breadcrumbs-custom__path">
@@ -114,134 +117,50 @@
         <div class="container blog">
           <div class="row row-90">
             <div class="col-lg-8 col-xl-9 blog__main">
-              <article class="post-single"><img class="post-single__image" src="images/post-4-870x412.jpg" alt="" width="870" height="412"/>
-                <h4 class="post-single__title">Why Our Solar Panels are the Most Powerful</h4>
+              <article class="post-single"><img class="post-single__image" src="images/post-4-764x215.jpg" alt="" width="870" height="412"/>
+                <h4 class="post-single__title">Post Heading</h4>
                 <ul class="post-single__meta">
                   <li>
                     <dl>
                       <dt>Date</dt>
                       <dd>
-                        <time datetime="2020-01-22">January 22, 2020</time>
+                        <time datetime="2020-01-22">January 22, 2021</time>
                       </dd>
                     </dl>
                   </li>
                   <li>
                     <dl>
                       <dt>Posted by</dt>
-                      <dd>Amelia Lee</dd>
+                      <dd>Author Name</dd>
                     </dl>
                   </li>
-                  <li>
+                  <!-- <li>
                     <dl>
                       <dt>Comments</dt>
                       <dd>3</dd>
                     </dl>
-                  </li>
+                  </li> -->
                   <li>
                     <dl>
                       <dt>Category</dt>
-                      <dd>Power and Energy</dd>
+                      <dd>category name</dd>
                     </dl>
                   </li>
                 </ul>
                 <div class="post-single__main">
-                  <p>A US-based, federal laboratory known as the National Renewable Energy Laboratory (NREL) recently tested our X-Series Solar Panels. It was found these panels have reached 22.8% in energy efficiency, which is much higher than the usual 15 to 18% ratings of other panels.</p>
-                  <p>Aside from the latest X-Series test results, we also have existing lines of panels which exceeded the 15 to 18% usual efficiencies among other modules. The E19 panels could produce 19.5% and E20 were at 20%, while X21 and X22 had 21% and 22% respectively.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget nulla lacus. Donec vitae sapien vitae erat finibus placerat id sed felis. Integer tortor lacus, sodales sit amet justo sed, sodales tincidunt velit. Proin dapibus euismod ipsum, et fermentum tortor tempus at. Pellentesque eget rhoncus massa. Donec consectetur, sapien egestas tincidunt convallis, sapien nunc elementum lectus, et suscipit felis diam eget diam. Morbi non vestibulum neque.</p>
+                  <p>Morbi purus felis, laoreet nec laoreet quis, condimentum non turpis. Suspendisse ipsum urna, porttitor et pellentesque a, posuere venenatis massa. Donec placerat finibus elit, ut hendrerit mauris mollis in. Sed pretium convallis est mattis cursus. Aliquam faucibus ullamcorper faucibus. Nullam ultrices aliquet suscipit. Phasellus suscipit egestas mi sed ornare. Sed sit amet accumsan elit. Maecenas egestas sapien elit, at tincidunt purus luctus dictum.</p>
                   <!-- Quote minimal-->
                   <article class="quote-minimal">
-                    <p class="q">We are now working on new solar panels with highly increased efficiency potential that could be used nationwide.</p>
+                    <p class="q">Morbi purus felis, laoreet nec laoreet quis, condimentum non turpis. Suspendisse ipsum urna, porttitor et pellentesque a.</p>
                   </article>
-                  <p>During the last two years, Shuttle Sky Lifts carried out many installations with the use of E20 modules. The series could generate more power within a same amount of space, in comparison to other panels. With E20’s power-tolerant cells and compatibility with transformer-less inverters, Shuttle Sky Lifts’ technicians were further geared to install high-performance and money saving equipment for homes.</p>
+                  <p>Vivamus ultrices lectus arcu. In magna diam, tincidunt eget consectetur vitae, interdum vel sem. Aliquam erat volutpat. Morbi interdum blandit massa, et laoreet turpis tempor laoreet. Nullam nulla libero, aliquet ac leo vel, luctus auctor diam. Curabitur urna tellus, laoreet quis mollis eget, sodales vel mauris. Aenean porttitor consequat lorem id facilisis. Nulla pharetra nisl quis dolor volutpat, et sollicitudin elit ultricies. In quis ligula est. Integer hendrerit tristique lobortis. Nam eget nisi lacus. Quisque placerat est turpis, ac porta augue venenatis et. Sed sit amet purus elementum, condimentum elit ut, consequat quam. Mauris in gravida urna. Fusce tempor ipsum neque, eu suscipit neque suscipit ut.</p>
                 </div>
                 <div class="post-single__footer">
                   <p class="heading-5">Share this Post:</p>
                   <div class="group-sm"><a class="button button-xs button-facebook button-icon button-icon-left" href="#"><span class="icon fa fa-facebook"></span>Like</a><a class="button button-xs button-twitter button-icon button-icon-left" href="#"><span class="icon fa fa-twitter"></span>Tweet</a><a class="button button-xs button-google button-icon button-icon-left" href="#"><span class="icon fa fa-google-plus"></span>Share</a></div>
                 </div>
               </article>
-              <div class="section-sm">
-                <h4><span>Comments</span><span class="mark-circle">3</span></h4>
-                <div class="comment-group">
-                  <!-- Comment-->
-                  <article class="comment">
-                    <div class="comment__aside"><img class="comment__image" src="images/comment-1-65x66.jpg" alt="" width="65" height="66"/>
-                    </div>
-                    <div class="comment__main">
-                      <div class="comment__header">
-                        <p class="comment__title">Edward</p><span class="comment__time">3 day ago</span>
-                      </div>
-                      <div class="comment__text">
-                        <p>Thank you for such an informative article! It was very interesting to read about technologies you use in the production of your solar panels. I hope it’s not the last article concerning green energy. However, it’d be great if you told your readers how you work on custom projects if it’s possible, of course. By the way, every word about the excellence of your solar panels and technologies you use is absolutely true, other independent ratings confirm this fact.</p>
-                      </div>
-                      <div class="comment__footer">
-                        <ul class="comment__list">
-                          <li><a class="comment__link" href="#"><span class="icon mdi mdi-thumb-up-outline"></span><span>32</span></a></li>
-                          <li><a class="comment__link" href="#"><span class="icon mdi mdi-comment-outline"></span><span>Reply</span></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </article>
-                  <div class="comment-group">
-                    <!-- Comment-->
-                    <article class="comment">
-                      <div class="comment__aside"><img class="comment__image" src="images/comment-2-52x51.jpg" alt="" width="52" height="51"/>
-                      </div>
-                      <div class="comment__main">
-                        <div class="comment__header">
-                          <p class="comment__title">Nina</p><span class="comment__time">1 days ago</span>
-                        </div>
-                        <div class="comment__text">
-                          <p>I think the technologies used by Shuttle Sky Lifts’ technicians and their dedication to what they do play the primary role in the success of their products (including solar panels). And I completely agree with you on this point.</p>
-                        </div>
-                        <div class="comment__footer">
-                          <ul class="comment__list">
-                            <li><a class="comment__link" href="#"><span class="icon mdi mdi-thumb-up-outline"></span><span>32</span></a></li>
-                            <li><a class="comment__link" href="#"><span class="icon mdi mdi-comment-outline"></span><span>Reply</span></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </article>
-                  </div>
-                </div>
-                <div class="comment-group">
-                  <!-- Comment-->
-                  <article class="comment">
-                    <div class="comment__aside"><img class="comment__image" src="images/comment-3-65x66.jpg" alt="" width="65" height="66"/>
-                    </div>
-                    <div class="comment__main">
-                      <div class="comment__header">
-                        <p class="comment__title">John</p><span class="comment__time">2 day ago</span>
-                      </div>
-                      <div class="comment__text">
-                        <p>My company has always been your partner, almost since Shuttle Sky Lifts’ establishment. I’m really surprised that you deliver not only perfectly working industrial solutions but also amazing products for home use (including solar panels). Probably it is the most important thing that diversifies your company from other manufacturers – you always think about your customers first, and not on the possible ways of gaining more profit. It’s impressive!</p>
-                      </div>
-                      <div class="comment__footer">
-                        <ul class="comment__list">
-                          <li><a class="comment__link" href="#"><span class="icon mdi mdi-thumb-up-outline"></span><span>32</span></a></li>
-                          <li><a class="comment__link" href="#"><span class="icon mdi mdi-comment-outline"></span><span>Reply</span></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </article>
-                </div>
-                <div class="comment-box">
-                  <article class="comment">
-                    <div class="comment__aside"><img class="comment-box__image" src="images/comment-4-65x66.jpg" alt="" width="65" height="66"/>
-                    </div>
-                    <div class="comment__main">
-                      <p class="heading-8">miranda</p>
-                      <form class="rd-mailform rd-mailform__outline">
-                        <div class="form-wrap">
-                          <label class="form-label" for="comment-message">Your comment</label>
-                          <textarea class="form-input" id="comment-message" name="message" data-constraints="@Required"></textarea>
-                        </div>
-                        <div class="from-wrap text-right">
-                          <button class="button button-primary" type="submit">submit comment</button>
-                        </div>
-                      </form>
-                    </div>
-                  </article>
-                </div>
-              </div>
             </div>
             <div class="col-lg-4 col-xl-3 blog__aside">
               <div class="blog-aside__column">
@@ -251,22 +170,22 @@
                     <!-- Post inline-->
                     <article class="post-inline">
                       <div class="post-inline__main">
-                        <p class="post-inline__title"><a href="single-post.html">Interior Design: Big Projects and Client Communication</a></p>
+                        <p class="post-inline__title"><a href="single-post.html">Benefits of using IOT enabled lifts in your house</a></p>
                       </div>
                       <div class="post-inline__footer"><img src="images/promo-1-236x321.jpg" alt="" width="236" height="321"/>
-                        <p class="post-inline__time">13 April 2020</p>
+                        <p class="post-inline__time">11 September 2020</p>
                       </div>
                     </article>
                     <!-- Post inline-->
                     <article class="post-inline">
                       <div class="post-inline__main">
-                        <p class="post-inline__title"><a href="single-post.html">Lift Installation in Existing Buildings</a></p>
+                        <p class="post-inline__title"><a href="single-post.html">How to take lift permission in Delhi?</a></p>
                       </div>
                       <div class="post-inline__footer"><a class="box-promo" href="#"><img src="images/promo-1-236x321.jpg" alt="" width="236" height="321"/>
                         <div class="box-promo__content">
-                          <h5>Heavy Industrial Products 2020: Price List</h5>
+                          <h5>How to take lift permission in Delhi?</h5>
                         </div></a>
-                        <p class="post-inline__time">25 January 2020</p>
+                        <p class="post-inline__time">04 October 2020</p>
                       </div>
                     </article>
                   </div>
@@ -298,7 +217,7 @@
                   <li>
                     <dl class="list-terms-inline">
                       <dt>Phone</dt>
-                      <dd><a href="tel:+919090900215">+91-9090900215</a></dd>
+                      <dd><a class="button-primary button" href="tel:+919090900215">+91-9090900215</a></dd>
                     </dl>
                   </li>
                 </ul>

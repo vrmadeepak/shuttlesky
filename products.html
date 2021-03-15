@@ -40,7 +40,7 @@
         <div class="rd-navbar-wrap">
           <nav class="rd-navbar rd-navbar-creative" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-device-layout="rd-navbar-fullwidth" data-xxl-device-layout="rd-navbar-fullwidth" data-lg-layout="rd-navbar-fullwidth" data-xl-layout="rd-navbar-fullwidth" data-xxl-layout="rd-navbar-fullwidth" data-stick-up-clone="false" data-md-stick-up-offset="150px" data-lg-stick-up-offset="60px" data-md-stick-up="true" data-lg-stick-up="true">
             <div class="rd-navbar-aside-outer rd-navbar-content-outer">
-              <div class="rd-navbar-content__toggle rd-navbar-fullwidth--hidden" data-rd-navbar-toggle=".rd-navbar-content"><span></span></div>
+              <!-- <div class="rd-navbar-content__toggle rd-navbar-fullwidth--hidden" data-rd-navbar-toggle=".rd-navbar-content"><span></span></div> -->
               <div class="rd-navbar-aside rd-navbar-content">
                 <div class="rd-navbar-aside__item">
                 </div>
@@ -48,8 +48,7 @@
                   <ul class="rd-navbar-items-list">
                     <li>
                       <div class="unit unit-spacing-xxs flex-row">
-                        <div class="unit__left"><span class="text-primary">Phone:</span></div>
-                        <div class="unit__body"><a href="tel:+919090900215">+91-9090900215</a></div>
+                        <div class="unit__body"><a class="button button-secondary" href="tel:+919090900215">+91-9090900215</a></div>
                       </div>
                     </li>
                   </ul>
@@ -59,24 +58,28 @@
             <div class="rd-navbar-main-outer">
               <div class="rd-navbar-main">
                 <!-- RD Navbar Panel -->
-                <div class="rd-navbar-panel">
+                <div class="rd-navbar-panel d-flex align-items-center justify-content-between">
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand"><a class="brand" href="index.html">
+                  <div class="rd-navbar-brand">
+                    <a class="brand" href="index.html">
                       <div class="brand__name"><img src="images/logo-141x65.png" alt="" width="141" height="65"/>
-                      </div></a></div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="rd-navbar-fullwidth--hidden ml-5"><a class="button button-secondary" href="tel:+919090900215">Call</a></div>
                 </div>
                 <!-- RD Navbar Nav -->
                 <div class="rd-navbar-nav-wrap">
                   <div class="rd-navbar-main-item"><a class="button button-xs button-lighter" href="contact-us.html">Get a quote</a></div>
                   <ul class="rd-navbar-nav">
-                    <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">Home</a>
                     </li>
                     <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.html">About Us</a>
                     </li>
                     <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="production.html">Production</a>
                     </li> -->
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="products.html">Products</a>
+                    <li class="rd-nav-item active"><a class="rd-nav-link" href="products.html">Products</a>
                       <!-- RD Navbar Dropdown-->
                       <ul class="rd-navbar-dropdown">
                         <li><a href="single-product.html">Home & Residential Elevators</a></li>
@@ -112,118 +115,12 @@
       <section class="section section-md bg-default text-center">
         <div class="container">
           <div class="isotope-wrap isotope-modern-wrap">
-            <!-- Section Header-->
+           
             <div class="section__header">
-              <h4>Our Products</h4>
-              <div class="section__header-element">
-                <div class="navigation-custom">
-                  <button class="button navigation-custom__toggle" data-custom-toggle=".navigation-custom__content" data-custom-toggle-hide-on-blur="true">Filter</button>
-                  <div class="navigation-custom__content">
-                    <div class="isotope-filters isotope-filters_modern">
-                      <ul class="inline-list">
-                        <li><a class="active" data-isotope-filter="*" data-isotope-group="products" href="#">All products</a></li>
-                        <li><a data-isotope-filter="Category 1" data-isotope-group="products" href="#">Tools</a></li>
-                        <li><a data-isotope-filter="Category 2" data-isotope-group="products" href="#">accessories</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <h4>Cannot fetch data</h4>
+              
             </div>
-            <!-- Isotope-->
-            <div class="isotope" data-isotope-layout="fitRows" data-isotope-group="products">
-              <div class="row">
-                <div class="col-6 col-md-4 col-lg-3 isotope-item" data-filter="Category 1">
-                  <!-- Product-->
-                  <article class="product"> <a class="product__image-wrap" href="single-product.html"><img src="images/product-1-120x151.png" alt="" width="120" height="151"/></a>
-                    <div class="product__main">
-                      <p class="product__title"><a href="single-product.html">Thread Faceplate</a></p>
-                      <p class="product__price">from $137</p>
-                    </div>
-                    <div class="product__footer"><a class="button button-xs button-gray-2" href="single-product.html">details</a></div>
-                  </article>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3 isotope-item" data-filter="Category 2">
-                  <!-- Product-->
-                  <article class="product"> <a class="product__image-wrap" href="single-product.html"><img src="images/product-2-179x141.png" alt="" width="179" height="141"/></a>
-                    <div class="product__main">
-                      <p class="product__title"><a href="single-product.html">Benchtop Drill Press</a></p>
-                      <p class="product__price">from $456</p>
-                    </div>
-                    <div class="product__footer"><a class="button button-xs button-gray-2" href="single-product.html">details</a></div>
-                  </article>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3 isotope-item" data-filter="Category 1">
-                  <!-- Product-->
-                  <article class="product"> <a class="product__image-wrap" href="single-product.html"><img src="images/product-3-157x123.png" alt="" width="157" height="123"/></a>
-                    <div class="product__main">
-                      <p class="product__title"><a href="single-product.html">Lathe Chuck</a></p>
-                      <p class="product__price">from $256</p>
-                    </div>
-                    <div class="product__footer"><a class="button button-xs button-gray-2" href="single-product.html">details</a></div>
-                  </article>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3 isotope-item" data-filter="Category 2">
-                  <!-- Product-->
-                  <article class="product"> <a class="product__image-wrap" href="single-product.html"><img src="images/product-4-215x157.png" alt="" width="215" height="157"/></a>
-                    <div class="product__main">
-                      <p class="product__title"><a href="single-product.html">Tool Sharpening System</a></p>
-                      <p class="product__price">from $590</p>
-                    </div>
-                    <div class="product__footer"><a class="button button-xs button-gray-2" href="single-product.html">details</a></div>
-                  </article>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3 isotope-item" data-filter="Category 1">
-                  <!-- Product-->
-                  <article class="product"> <a class="product__image-wrap" href="single-product.html"><img src="images/product-5-121x168.png" alt="" width="121" height="168"/></a>
-                    <div class="product__main">
-                      <p class="product__title"><a href="single-product.html">Fixed Base Router</a></p>
-                      <p class="product__price">from $344</p>
-                    </div>
-                    <div class="product__footer"><a class="button button-xs button-gray-2" href="single-product.html">details</a></div>
-                  </article>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3 isotope-item" data-filter="Category 2">
-                  <!-- Product-->
-                  <article class="product"> <a class="product__image-wrap" href="single-product.html"><img src="images/product-6-202x148.png" alt="" width="202" height="148"/></a>
-                    <div class="product__main">
-                      <p class="product__title"><a href="single-product.html">5-Speed Drill Press</a></p>
-                      <p class="product__price">from $457</p>
-                    </div>
-                    <div class="product__footer"><a class="button button-xs button-gray-2" href="single-product.html">details</a></div>
-                  </article>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3 isotope-item" data-filter="Category 1">
-                  <!-- Product-->
-                  <article class="product"> <a class="product__image-wrap" href="single-product.html"><img src="images/product-7-219x98.png" alt="" width="219" height="98"/></a>
-                    <div class="product__main">
-                      <p class="product__title"><a href="single-product.html">Planer Package</a></p>
-                      <p class="product__price">from $565</p>
-                    </div>
-                    <div class="product__footer"><a class="button button-xs button-gray-2" href="single-product.html">details</a></div>
-                  </article>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3 isotope-item" data-filter="Category 2">
-                  <!-- Product-->
-                  <article class="product"> <a class="product__image-wrap" href="single-product.html"><img src="images/product-8-165x148.png" alt="" width="165" height="148"/></a>
-                    <div class="product__main">
-                      <p class="product__title"><a href="single-product.html">Circular Saw</a></p>
-                      <p class="product__price">from $678</p>
-                    </div>
-                    <div class="product__footer"><a class="button button-xs button-gray-2" href="single-product.html">details</a></div>
-                  </article>
-                </div>
-              </div>
-            </div>
-            <!-- Pagination-->
-            <ul class="pagination-custom">
-              <li class="pagination-control"><a href="#">Prev</a></li>
-              <li><a href="#">1</a></li>
-              <li><a href="#">2</a></li>
-              <li class="active"><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li class="pagination-control"><a href="#">Next</a></li>
-            </ul>
+         
           </div>
         </div>
       </section>
@@ -249,7 +146,7 @@
                   <li>
                     <dl class="list-terms-inline">
                       <dt>Phone</dt>
-                      <dd><a href="tel:+919090900215">+91-9090900215</a></dd>
+                      <dd><a class="button-primary button" href="tel:+919090900215">+91-9090900215</a></dd>
                     </dl>
                   </li>
                 </ul>
